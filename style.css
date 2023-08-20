@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Setting a background color for the entire page */
+
+body {
+    background-color: lemonchiffon;
+}
+
+
+/* Styling the header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(9, 1, 75);
+    box-shadow: 0 2px 5px rgb(76, 255, 0);
+}
+
+
+/* Styling the logo */
+
+.logo-text {
+    font-family: 'Sofia', sans-serif;
+    font-size: 26px;
+    text-shadow: 1px 1px 3px #ffd800;
+    color: #ffd800;
+   
+}
+
+
+/* Styling the button */
+
+#get-users-btn {
+    padding: 12px 24px;
+    border: thick;
+    background-color: maroon;
+    color: #ffd800;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#get-users-btn:hover {
+    transform: scale(1.05);
+}
+
+
+/* Styling the cards section */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+
+/* Styling the card */
+
+.card {
+    background-color: rgb(9, 249, 181);
+    box-shadow: 0 2px 5px maroon;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: unset;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
